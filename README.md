@@ -1,10 +1,12 @@
 IntroSDE-2017-Assignment-1
+
 Name: Surbhi Sonkiya
 Email id: Surbhi.sonkiya@studenti.unitn.it
 Matricola: 196511
 Master student Software and Service Architectures (EIT first year)
 
 Project: Reading/Writing objects to and from XML and JSON.
+
 1.	Code description:
 
 i.	“(default package)”  –
@@ -26,28 +28,21 @@ iv.	“xmlProfile” package –
 2.	Person.java – Mapping defined from XML file in this java class.
 
 v.	“people.xml” – XML file containing 25 persons and their activity preferences details.
-
 vi.	“people.xsd” – corresponding XML schema document for “people.xml” file.
-
 vii.	 “build.xml” – To build the project – contains clean, compile, generate and execute.evaluation tasks. It also contains tasks to manage dependencies (ivy).
 
 2.  Task description:
 
 i.	Use XPath to get activity description and activity place by providing person id as the parameter.
-
 ii.	Make a function that prints all people in the list with details.
-
 iii.	Make a function that accepts the person id as parameter and prints the details within the ActivityPreference of the person with that id.
-
 iv.	Make a function which accepts a date and an operator (=, >, <) as parameters and prints people which preferred activity start_date fulfill that condition.
-
 v.	Create the XML schema XSD file for the example XML document of people.
-
 vi.	Write a java application that does the marshalling and un-marshalling using classes generated with JAXB XJC.
-
 vii.	Make the java application to convert also JSON.
 
 Execution: Below are the steps to execute the code.
+
 1.	Clone my repository from github to your local machine.
 2.	Import the project folder in your eclipse workspace.
 3.	To Add Ivy libraries – right click on “ivy.xml” and click on “Add Ivy Library…” option.
