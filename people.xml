@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<people>
+    <person id="0001">
+        <firstname>Bond R.</firstname>
+        <lastname>Martin</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="100">
+            <name>Running</name>
+            <description>Running to the Park</description>
+            <place>Gocciadoro</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0002">
+        <firstname>Hari</firstname>
+        <lastname>Sharma</lastname>
+        <birthdate>1988-08-16</birthdate>
+        <activitypreference id="150">
+            <name>Running</name>
+            <description>Running on the track</description>
+            <place>SMS Stadium</place>
+            <startdate>2017-10-17T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0003">
+        <firstname>Rohit</firstname>
+        <lastname>Prakash</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="200">
+            <name>Chess</name>
+            <description>Mind game</description>
+            <place>Indore</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0004">
+        <firstname>Parul</firstname>
+        <lastname>Sonkiya</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="250">
+            <name>Carrom</name>
+            <description>Board and coins game</description>
+            <place>Mysore</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0005">
+        <firstname>Sagar</firstname>
+        <lastname>Gupta</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="300">
+            <name>Dance</name>
+            <description>Salsa and Tap</description>
+            <place>Trento</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0006">
+        <firstname>Robin</firstname>
+        <lastname>Uttapa</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="350">
+            <name>Accounts</name>
+            <description>Keeping bank accounts</description>
+            <place>Baroda</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0007">
+        <firstname>Yaval</firstname>
+        <lastname>Gupta</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="400">
+            <name>Yoga</name>
+            <description>Yoga for health</description>
+            <place>Haridwar</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0008">
+        <firstname>Sankalp</firstname>
+        <lastname>Sharma</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="450">
+            <name>Walking</name>
+            <description>Walking in the dark</description>
+            <place>Milan</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0009">
+        <firstname>Yash</firstname>
+        <lastname>Choudhary</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="500">
+            <name>Badminton</name>
+            <description>Smash the shuttle in the court</description>
+            <place>Bangalore</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0010">
+        <firstname>Renu</firstname>
+        <lastname>Khandel</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="550">
+            <name>Squash</name>
+            <description>Squash Court</description>
+            <place>Sanbapolis</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0011">
+        <firstname>Mahesh</firstname>
+        <lastname>Sonkiya</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="600">
+            <name>Basketball</name>
+            <description>Ball is in my basket</description>
+            <place>Delhi</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0012">
+        <firstname>Jairaj</firstname>
+        <lastname>Christian</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="650">
+            <name>Movies</name>
+            <description>Bollywood masala</description>
+            <place>Hyderabad</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0013">
+        <firstname>Deepika</firstname>
+        <lastname>Padukone</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="700">
+            <name>Music</name>
+            <description>Listening to live concert</description>
+            <place>Mumbai</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0014">
+        <firstname>Yash</firstname>
+        <lastname>Raj</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="750">
+            <name>Yoga</name>
+            <description>Yoga in the Park</description>
+            <place>Jaipur</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0015">
+        <firstname>Kangana</firstname>
+        <lastname>Ranaut</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="800">
+            <name>Stitching</name>
+            <description>Stitching clothes</description>
+            <place>Indore</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0015">
+        <firstname>Sharukh</firstname>
+        <lastname>Khan</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="850">
+            <name>Walking</name>
+            <description>Walking in the Park</description>
+            <place>Chennai</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0016">
+        <firstname>Amitabh</firstname>
+        <lastname>Bachchan</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="900">
+            <name>Painting</name>
+            <description>Wall art</description>
+            <place>Helsinki</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0017">
+        <firstname>Krati</firstname>
+        <lastname>Sharma</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="950">
+            <name>Creative arts</name>
+            <description>Paper craft</description>
+            <place>Coimbatore</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0018">
+        <firstname>Neha</firstname>
+        <lastname>Tadimeti</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="1000">
+            <name>Painting</name>
+            <description>Canvas painting</description>
+            <place>Ajmer</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0019">
+        <firstname>Preeti</firstname>
+        <lastname>Das</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="1050">
+            <name>Travelling</name>
+            <description>Historical places</description>
+            <place>Rome</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0020">
+        <firstname>Nithasha</firstname>
+        <lastname>P.K.</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="1100">
+            <name>Travelling</name>
+            <description>Across the ocean</description>
+            <place>New York</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0021">
+        <firstname>Minerva</firstname>
+        <lastname>Singh</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="1250">
+            <name>Mimic</name>
+            <description>Imitate famous personalities</description>
+            <place>Kerala</place>
+            <startdate>2017-05-18T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0022">
+        <firstname>Sangeeta</firstname>
+        <lastname>Jhalani</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="1300">
+            <name>Dance</name>
+            <description>Bharatnatyam classical dance</description>
+            <place>Tamil Nadu</place>
+            <startdate>2015-01-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0023">
+        <firstname>Anant</firstname>
+        <lastname>Agarwal</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="1350">
+            <name>Climbing</name>
+            <description>Rock Climbing</description>
+            <place>Trento</place>
+            <startdate>2017-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0024">
+        <firstname>Nandini</firstname>
+        <lastname>Jain</lastname>
+        <birthdate>1984-09-20</birthdate>
+        <activitypreference id="1400">
+            <name>Skiing</name>
+            <description>Skiing in the winters</description>
+            <place>Norway</place>
+            <startdate>2016-10-13T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+        <person id="0025">
+        <firstname>Palak</firstname>
+        <lastname>Maheshwari</lastname>
+        <birthdate>1991-09-26</birthdate>
+        <activitypreference id="1450">
+            <name>Writing</name>
+            <description>Writing blog posts</description>
+            <place>Internet world</place>
+            <startdate>2017-10-17T11:50:00.0</startdate>
+        </activitypreference>
+    </person>
+</people>

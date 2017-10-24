@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="people">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="person" maxOccurs="unbounded" minOccurs="0">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="firstname" type="xsd:string" />
+						<xsd:element name="lastname" type="xsd:string" />
+						<xsd:element name="birthdate" type="xsd:date" />
+						<xsd:element name="activitypreference">
+							<xsd:complexType>
+								<xsd:sequence>
+									<xsd:element name="name" type="xsd:string" />
+									<xsd:element name="description" type="xsd:string" />
+									<xsd:element name="place" type="xsd:string" />
+									<xsd:element name="startdate" type="xsd:dateTime" />
+								</xsd:sequence>
+								<xsd:attribute name="id" type="xsd:string" />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+					<xsd:attribute name="id" type="xsd:string" />
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>		
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>
