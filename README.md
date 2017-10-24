@@ -39,11 +39,17 @@ vii.	 “build.xml” – To build the project – contains clean, compile, gene
 2.  Task description:
 
 i.	Use XPath to get activity description and activity place by providing person id as the parameter.
+
 ii.	Make a function that prints all people in the list with details.
+
 iii.	Make a function that accepts the person id as parameter and prints the details within the ActivityPreference of the person with that id.
+
 iv.	Make a function which accepts a date and an operator (=, >, <) as parameters and prints people which preferred activity start_date fulfill that condition.
+
 v.	Create the XML schema XSD file for the example XML document of people.
+
 vi.	Write a java application that does the marshalling and un-marshalling using classes generated with JAXB XJC.
+
 vii.	Make the java application to convert also JSON.
 
 Execution: Below are the steps to execute the code.
