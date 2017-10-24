@@ -6,6 +6,7 @@ Master student Software and Service Architectures (EIT first year)
 
 Project: Reading/Writing objects to and from XML and JSON.
 1.	Code description:
+
 i.	“(default package)”  –
 1.	XPATHActivityProfileReader.java – to create the xpath object and has all the queries which prints the output of the tasks mentioned in the section i - iv under the next subheading “Task description”.
 
@@ -41,7 +42,7 @@ Execution: Below are the steps to execute the code.
 1.	Clone my repository from github to your local machine.
 2.	Import the project folder in your eclipse workspace.
 3.	To Add Ivy libraries – right click on “ivy.xml” and click on “Add Ivy Library…” option.
-4.	Right click on build.xml  run as2 ant built… select “compile”Click ‘Run’.
-5.	Right click on build.xml  run as2 ant built…  select “generate” Click ‘Run’.
-6.	Right click on build.xml  run as2 ant built…  select “execute.evaluation” Click ‘Run’.
+4.	Right click on build.xml -> run as -> 2 ant built… -> select “compile”-> Click ‘Run’.
+5.	Right click on build.xml -> run as -> 2 ant built… -> select “generate” -> Click ‘Run’.
+6.	Right click on build.xml -> run as -> 2 ant built… -> select “execute.evaluation” -> Click ‘Run’.
 
