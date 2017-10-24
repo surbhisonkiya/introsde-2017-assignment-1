@@ -1,8 +1,11 @@
 IntroSDE-2017-Assignment-1
 
 Name: Surbhi Sonkiya
+
 Email id: Surbhi.sonkiya@studenti.unitn.it
+
 Matricola: 196511
+
 Master student Software and Service Architectures (EIT first year)
 
 Project: Reading/Writing objects to and from XML and JSON.
@@ -28,7 +31,9 @@ iv.	“xmlProfile” package –
 2.	Person.java – Mapping defined from XML file in this java class.
 
 v.	“people.xml” – XML file containing 25 persons and their activity preferences details.
+
 vi.	“people.xsd” – corresponding XML schema document for “people.xml” file.
+
 vii.	 “build.xml” – To build the project – contains clean, compile, generate and execute.evaluation tasks. It also contains tasks to manage dependencies (ivy).
 
 2.  Task description:
