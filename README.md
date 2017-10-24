@@ -59,5 +59,6 @@ Execution: Below are the steps to execute the code.
 3.	To Add Ivy libraries – right click on “ivy.xml” and click on “Add Ivy Library…” option.
 4.	Right click on build.xml -> run as -> 2 ant built… -> select “compile”-> Click ‘Run’.
 5.	Right click on build.xml -> run as -> 2 ant built… -> select “generate” -> Click ‘Run’.
-6.	Right click on build.xml -> run as -> 2 ant built… -> select “execute.evaluation” -> Click ‘Run’.
+6.  Refresh the project in the Eclipse.
+7.	Right click on build.xml -> run as -> 2 ant built… -> select “execute.evaluation” -> Click ‘Run’.
 
