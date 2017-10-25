@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import xmlProfile.Person;
 
-@XmlRootElement(name="people")
+@XmlRootElement(name="people") //root element from the xml file
 @XmlAccessorType(XmlAccessType.FIELD)
 
 public class PersonActivityAnnotation {
@@ -18,7 +18,7 @@ public class PersonActivityAnnotation {
 	
 	public PersonActivityAnnotation() {
 	}
-
+	//getters and setters
 	public List<Person> getpersonData() {
 		return personData;
 	}
