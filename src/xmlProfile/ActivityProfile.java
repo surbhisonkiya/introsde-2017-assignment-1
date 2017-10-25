@@ -2,9 +2,13 @@ package xmlProfile;
 
 import java.util.Calendar;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlType;
+@XmlType(propOrder = { "name", "description", "place", "startDate" })
 
 public class ActivityProfile {
-	private long id;
+	@XmlAttribute(name="id") //adding new
+	private int id;
 	private String name;
 	private String description;
 	private String place;
@@ -17,14 +21,14 @@ public class ActivityProfile {
 	}
 
 	public ActivityProfile() {
-		this.id = 1;
+		this.id = 1;		
 		this.name = "Noname this time";
 		this.description = "busy doing my favourite activity";
 		this.setPlace("on the Earth");
 		this.startDate = this.getRandomDate();
 	}
 	
-	public ActivityProfile(long id, String name, String description, String place, String startDate) {
+	public ActivityProfile(int id, String name, String description, String place, String startDate) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -37,7 +41,7 @@ public class ActivityProfile {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 

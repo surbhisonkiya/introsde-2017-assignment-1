@@ -14,17 +14,17 @@ import xmlProfile.Person;
 
 public class PersonActivityAnnotation {
 	@XmlElement(name="person")
-	private List<Person> data = new ArrayList<Person>();
+	private List<Person> personData = new ArrayList<Person>();
 	
 	public PersonActivityAnnotation() {
 	}
 
-	public List<Person> getData() {
-		return data;
+	public List<Person> getpersonData() {
+		return personData;
 	}
 
-	public void setData(List<Person> data) {
-		this.data = data;
+	public void setpersonData(List<Person> pData) {
+		this.personData = pData;
 	}
 }
 

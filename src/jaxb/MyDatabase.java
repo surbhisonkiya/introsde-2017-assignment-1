@@ -1,6 +1,6 @@
 package jaxb;
 
-import java.util.Date;
+
 import java.util.Random;
 
 import xmlProfile.ActivityProfile;
@@ -24,9 +24,10 @@ public class MyDatabase {
 		Random random = new Random();
 		int max = 5;
 
-		for (int i = 0; i<25;i++) {
-			Person person = new Person((long) i+1,fNames[random.nextInt(max)], lNames[random.nextInt(max)], bDates[random.nextInt(max)], pActivities[random.nextInt(max)]);
-			people.getData().add(person);
+		for (int i = 0; i<5;i++) {
+			//Person person = new Person((long) i+1,fNames[random.nextInt(max)], lNames[random.nextInt(max)], bDates[random.nextInt(max)], pActivities[random.nextInt(max)]);
+			Person person = new Person((long) i+1,fNames[i], lNames[i], bDates[i], pActivities[i]);
+			people.getpersonData().add(person);
 		}
 	}
 
