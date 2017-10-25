@@ -24,7 +24,7 @@ public class XPATHActivityProfileReader {
 
 	public static void main(String[] args) throws ParserConfigurationException, SAXException,
 	IOException, XPathExpressionException {
-
+		
 		DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
 		domFactory.setNamespaceAware(true);
 		DocumentBuilder builder = domFactory.newDocumentBuilder();
