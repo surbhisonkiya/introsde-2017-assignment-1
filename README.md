@@ -54,7 +54,7 @@ vii.	Make the java application to convert also JSON.
 
 Execution: Below are the steps to execute the code.
 
-1.	Clone my repository from github to your local machine.
+1.	Clone my repository (https://github.com/surbhisonkiya/introsde-2017-assignment-1.git) from github to your local machine.
 2.	Import the project folder in your eclipse workspace.
 3.	To Add Ivy libraries – right click on “ivy.xml” and click on “Add Ivy Library…” option.
 4.	Right click on build.xml -> run as -> 2 ant built… -> select “compile”-> Click ‘Run’.
