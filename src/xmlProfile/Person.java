@@ -9,21 +9,20 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-// XmlRootElement defines the root element of the XML tree to which this class will be serialized
-// --> <person> ... </person> 
+// XmlRootElement to define the root node of the XML tree to which this class will be serialized.
 @XmlRootElement(name = "person")	
-// XmlType can optionally define the order in which the fields of person are written
+// XmlType to define the order in which the nodes of person are to be written.
 @XmlType(propOrder = { "firstname", "lastname", "birthdate", "pActivity" })
-// XmlAccessorType indicates what to use to create the mapping: either FIELDS, PROPERTIES (i.e., getters/setters), PUBLIC_MEMBER or NONE (which means, you should indicate manually)
+// XmlAccessorType to indicate to use FIELD property to create the mapping.
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Person {
 	private String firstname;		
 	private String lastname;		
-	// XmlElement indicates the element to use for this field. Only used if the name in XML will be different than that in the class
+	// XmlElement indicates the element to use for this field.
 	@XmlElement(name="activitypreference")
 	private ActivityProfile pActivity;	
 	private String birthdate;
-	// XmlAttribute indicates that this field will be serialized as an attribute
+	// XmlAttribute to indicate that this field will be serialized as an attribute.
 	@XmlAttribute(name="id")
 	private Long personId;
 	
@@ -52,7 +51,7 @@ public class Person {
 		this.personId = Math.round(Math.floor(Math.random()*9998)+1); 
 		this.birthdate = this.getRandomDate();
 	}
-
+	//getters and setters for class variables
 	public String getFirstname() {
 		return firstname;
 	}
@@ -88,14 +87,15 @@ public class Person {
 	 * creating a random date between now and 1950
 	 */
 	private String getRandomDate() {
-		int currentYear = Calendar.getInstance().get(Calendar.YEAR); 		// 1. get the current year
-		int year = (int) Math.round(Math.random()*(currentYear-1950)+1950); // 2. generate a random year 
+		//get the 1.random year and 2.random month
+		int currentYear = Calendar.getInstance().get(Calendar.YEAR); 		
+		int year = (int) Math.round(Math.random()*(currentYear-1950)+1950); 
 																			//    between 1950 and currentYear
-		int month = (int) Math.round(Math.floor(Math.random()*11)+1);		// 3. select a random month of the year
-		// 4. select a random day in the selected month
-		// 4.1 prepare a months array to store how many days in each month
+		int month = (int) Math.round(Math.floor(Math.random()*11)+1);		
+		// 3. select a random day in the selected month
+		// 3.1 prepare a months array to store how many days in each month
 		int[] months = new int[]{31,28,30,30,31,30,31,31,30,31,30,31};
-		// 4.2 if it is a leap year, feb (months[1]) should be 29
+		// 3.2 if it is a leap year, feb (months[1]) should be 29
 		if ((currentYear % 4 == 0) && ((currentYear % 100 != 0) || (currentYear % 400 == 0))) {
 			months[1] = 29;
 		}
